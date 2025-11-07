@@ -53,7 +53,7 @@ content:
   - title: Technical Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Primary Stack:** <mark>Go</mark>, <mark>PostgreSQL</mark>, <mark>Redis</mark>, <mark>GCP</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>, <mark>Temporal</mark>.
+      **Primary Stack:** Go, PostgreSQL, Redis, GCP, Docker, Kubernetes, Temporal.
       **Technologies:** Pub/Sub, Debezium, RESTful APIs, Microservices Architecture.
       **AI/ML:** LLM integration, Embeddings, Vector Search.
       **Practices:** CI/CD, Code Reviews, System Design, Agile/Scrum, RFC Documentation.
@@ -63,7 +63,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: daily.dev, Vilnius
+        title: daily.dev
         # link: boringcompany.com
         sub_title: Backend Software Engineer
         caption: Oct 2022 - Present
