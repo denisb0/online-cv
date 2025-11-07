@@ -1,10 +1,131 @@
-# GitHub Pages will use Jekyll to process the Markdown file
-remote_theme: pages-themes/slate@v0.2.0
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
-# Plugins required for remote themes
+# Content configuration version
+version: 2
+
+# Personal info
+name: Denis Bolkovskis
+title: Backend Software Engineer
+email: denisb41@gmail.com
+# website: https://denisb0.github.io/online-cv/
+
+# Dark Mode (true/false/never)
+# Set to 'true' to force the dark theme for all users.
+# Set to 'false' to respect the user's OS preference (which acts as a switch).
+darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username: denisb0
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: denisbolkovskis
+# youtube_username: globalmtb
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Backend Software Engineer with **4+ years of specialized experience in Go development** and **15+ years in software engineering**. Proven expertise in designing and implementing **scalable microservice architectures**, **AI-powered content processing systems**, and **high-reliability financial services**. Strong focus on system design, code quality, and service reliability in cloud-native environments.
+
+content:
+  - title: Technical Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Primary Stack:** <mark>Go</mark>, <mark>PostgreSQL</mark>, <mark>Redis</mark>, <mark>GCP</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>, <mark>Temporal</mark>.
+      **Technologies:** Pub/Sub, Debezium, RESTful APIs, Microservices Architecture.
+      **AI/ML:** LLM integration, Embeddings, Vector Search.
+      **Practices:** CI/CD, Code Reviews, System Design, Agile/Scrum, RFC Documentation.
+      **Languages:** Lithuanian, Russian (C2) | English (C1) | Polish (B1).
+
+  - title: Professional Experience
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: daily.dev, Vilnius
+        # link: boringcompany.com
+        sub_title: Backend Software Engineer
+        caption: Oct 2022 - Present
+        # quote: >
+        #   
+        description: | # this will include new lines to allow paragraphs
+            Architected and developed multiple high-impact backend systems serving thousands of developers daily.
+            * **Content Platform:** Designed and built an automated content processing pipeline handling **2,000+ articles daily**. Integrated **LLM capabilities** for summarization, tag extraction, and quality verification. Used **Temporal** for robust workflow orchestration.
+            * **Platform Currency:** Built a mission-critical financial service managing internal platform currency with strict requirements for security, precision, and auditability.
+            * **Job Matching:** Developed intelligent candidate matching system utilizing **embeddings and vector search**.
+
+      - layout: left
+        title: LKWD Publishing, Vilnius
+        # link: boringcompany.com
+        sub_title: Software Engineer
+        caption: Aug 2019 - Oct 2022
+        # quote: >
+        #   
+        description: | # this will include new lines to allow paragraphs
+            Extended and maintained backend logic scripting platform supporting mobile game infrastructure. Developed internal tools for bulk customer data operations. Refactored multiple backend services to reduce technical debt and improve test coverage.
+
+      - layout: left
+        title: Early Career (Various Companies)
+        # link: boringcompany.com
+        sub_title: Game Development Software Engineer
+        caption: 2004 - 2019
+        # quote: >
+        #   
+        description: | # this will include new lines to allow paragraphs
+            15 years of software engineering experience in the game development industry. Worked on multi-platform titles (PC, PlayStation) using C++ and Lua. Gained comprehensive experience across the full software development lifecycle.
+
+  - title: Education
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Vilnius Gediminas Technical University
+        caption: # No dates provided
+        sub_title: M.Sc. Computer Science
+        # quote: >
+        #   
+        description: | # this will include new lines to allow paragraphs
+          Master of Science in Computer Science.
+
+  - title: Key Strengths
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      * Strong system design and microservices architecture expertise.
+      * Experience with high-throughput, distributed systems and event based architecture.
+      * AI/ML integration and LLM application development.
+      * Focus on code quality, security, and performance optimization.
+      * Collaborative approach to technical decision-making and code reviews.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
-  - jekyll-remote-theme
-
-# Site Metadata (for the browser title bar)
-title: Denis Bolkovskis | Senior Go Backend Engineer
-description: Online CV
+ - jekyll-seo-tag
