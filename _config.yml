@@ -1,0 +1,10 @@
+# GitHub Pages will use Jekyll to process the Markdown file
+remote_theme: pages-themes/slate@v0.2.0
+
+# Plugins required for remote themes
+plugins:
+  - jekyll-remote-theme
+
+# Site Metadata (for the browser title bar)
+title: Denis Bolkovskis | Senior Go Backend Engineer
+description: Online CV
