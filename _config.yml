@@ -47,16 +47,20 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Backend Software Engineer with **4+ years of specialized experience in Go development** and **15+ years in software engineering**. Proven expertise in designing and implementing **scalable microservice architectures**, **AI-powered content processing systems**, and **high-reliability financial services**. Strong focus on system design, code quality, and service reliability in cloud-native environments.
+  Backend Software Engineer with 4+ years of specialized experience in Go development and 15+ years in software engineering. Proven expertise in designing and implementing scalable microservice architectures, AI-powered content processing systems, and high-reliability services. Strong focus on system design, code quality, and service reliability in cloud-native environments.
 
 content:
   - title: Technical Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
       **Primary Stack:** Go, PostgreSQL, Redis, GCP, Docker, Kubernetes, Temporal.
+
       **Technologies:** Pub/Sub, Debezium, RESTful APIs, Microservices Architecture.
+      
       **AI/ML:** LLM integration, Embeddings, Vector Search.
+
       **Practices:** CI/CD, Code Reviews, System Design, Agile/Scrum, RFC Documentation.
+
       **Languages:** Lithuanian, Russian (C2) | English (C1) | Polish (B1).
 
   - title: Professional Experience
