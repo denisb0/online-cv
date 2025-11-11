@@ -47,7 +47,7 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Backend Software Engineer with 4+ years Go expertise and 20+ years total experience. Specialized in scalable microservices, AI/LLM integration, and distributed systems. Proven track record in building scalable, reliable systems. Adept at mastering new technologies to solve complex problems.
+  Backend Software Engineer with 4+ years Go expertise and 20+ years total experience. Specialized in scalable microservices, AI/LLM integration, and distributed systems. Proven track record in building robust, high-availability systems. Adept at mastering new technologies to solve complex problems.
 
 content:
   - title: Technical Skills
@@ -122,7 +122,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# remote_theme: sproogen/resume-theme
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
