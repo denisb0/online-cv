@@ -14,7 +14,7 @@ email: denisb41@gmail.com
 # Dark Mode (true/false/never)
 # Set to 'true' to force the dark theme for all users.
 # Set to 'false' to respect the user's OS preference (which acts as a switch).
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -47,17 +47,16 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Backend Software Engineer with 4+ years of specialized experience in Go development and 15+ years in software engineering. Proven expertise in designing and implementing scalable microservice architectures, AI-powered content processing systems, and high-reliability services. Strong focus on system design, code quality, and service reliability in cloud-native environments.
+  Backend Software Engineer with 4+ years Go expertise and 20+ years total experience. Specialized in scalable microservices, AI/LLM integration, and distributed systems. Proven track record in building scalable, reliable systems. Adept at mastering new technologies to solve complex problems.
 
 content:
   - title: Technical Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      * **Primary Stack:** Go, PostgreSQL, Redis, GCP, Docker, Kubernetes, Temporal.
-      * **Technologies:** Pub/Sub, Debezium, RESTful APIs, Microservices Architecture.
-      * **AI/ML:** LLM integration, Embeddings, Vector Search.
-      * **Practices:** CI/CD, Code Reviews, System Design, Agile/Scrum, RFC Documentation.
-      * **Languages:** Lithuanian, Russian (C2), English (C1), Polish (B1).
+      * **Languages:** Go, Python, SQL, Lua.
+      * **Technologies:** Microservices, PostgreSQL, Redis, GCP, Docker, Debezium, Temporal, LLM Integration (OpenAI, Claude, Gemini), Embeddings, ClickHouse.
+      * **Practices:** CI/CD, Agile/Scrum, Code Reviews, System Design.
+      * **Spoken Languages:** Lithuanian, Russian (C2), English (C1), Polish (B1).
 
   - title: Professional Experience
     layout: list # Type of content section (list/text)
@@ -66,14 +65,14 @@ content:
         title: daily.dev
         # link: boringcompany.com
         sub_title: Backend Software Engineer
-        caption: Oct 2022 - Present
+        caption: Oct 2022 - Nov 2025
         # quote: >
         #   
         description: | # this will include new lines to allow paragraphs
-            Architected and developed multiple high-impact backend systems serving thousands of developers daily.
-            * **Content Platform:** Designed and built an automated content processing pipeline handling **2,000+ articles daily**. Integrated **LLM capabilities** for summarization, tag extraction, and quality verification. Used **Temporal** for robust workflow orchestration.
-            * **Platform Currency:** Built a mission-critical financial service managing internal platform currency with strict requirements for security, precision, and auditability.
-            * **Job Matching:** Developed intelligent candidate matching system utilizing **embeddings and vector search**.
+            * **Content Processing Platform:** Designed automated pipeline processing 2,000+ daily articles from 1,300+ sources. Integrated LLMs for summarization, tag extraction, and content quality verification. Implemented Temporal workflow orchestration for reliable multi-source handling. Highly configurable content processing pipelines easily adapted for different content types and specifics.
+            * **Platform Currency Service:** Built mission-critical financial service with comprehensive audit trails and transaction logging. Designed for security, precision, and data integrity in financial operations.
+            * **AI Job Matching:** Developed intelligent candidate search. Initial filter and ranking using dynamic query composition and embedding vector search. LLM-based evaluation pipeline for advanced candidate assessment.
+            * **Technologies:** Go, Python, GCP, Pub/Sub, PostgreSQL, Redis, Debezium, Docker, Temporal, LLMs (OpenAI, Claude, Gemini), Vector Embeddings, Clickhouse.
 
       - layout: left
         title: LKWD Publishing, Vilnius
@@ -81,19 +80,21 @@ content:
         sub_title: Software Engineer
         caption: Aug 2019 - Oct 2022
         # quote: >
-        #   
+        #
         description: | # this will include new lines to allow paragraphs
-            Extended and maintained backend logic scripting platform supporting mobile game infrastructure. Developed internal tools for bulk customer data operations. Refactored multiple backend services to reduce technical debt and improve test coverage.
+            Extended backend scripting platform for mobile game infrastructure. Refactored services reducing technical debt and improving test coverage. Built internal tools for customer data operations.
+
+            **Technologies:** Go, Lua, Python, PostgreSQL, Tarantool, Redis.
 
       - layout: left
-        title: Early Career (Various Companies)
+        title: Game Development
         # link: boringcompany.com
-        sub_title: Game Development Software Engineer
+        sub_title: Software Engineer
         caption: 2004 - 2019
         # quote: >
-        #   
+        #
         description: | # this will include new lines to allow paragraphs
-            15 years of software engineering experience in the game development industry. Worked on multi-platform titles (PC, PlayStation) using C++ and Lua. Gained comprehensive experience across the full software development lifecycle.
+            15 years developing multi-platform titles (PC, PlayStation) using C++ and Lua at Nordcurrent and Outso Ltd.
 
   - title: Education
     layout: list # Type of content section (list/text)
