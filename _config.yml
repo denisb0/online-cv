@@ -30,9 +30,9 @@ linkedin_username: denisbolkovskis
 
 # Additional icon links
 additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+- title: Download Resume (PDF)
+  icon: fas fa-file-pdf
+  url: /online-cv/downloads/Denis_Bolkovskis_Senior_Go_2025_one_page.md.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -102,11 +102,11 @@ content:
       - layout: left
         title: Vilnius Gediminas Technical University
         caption: # No dates provided
-        sub_title: M.Sc. Computer Science
+        sub_title: # M.Sc. Computer Science
         # quote: >
         #   
         description: | # this will include new lines to allow paragraphs
-          Master of Science in Computer Science.
+          M.Sc. Computer Science
 
   - title: Key Strengths
     layout: text
@@ -122,7 +122,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
