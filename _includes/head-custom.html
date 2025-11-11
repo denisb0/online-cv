@@ -1,0 +1,12 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Find the PDF download link and add download attribute
+    const links = document.querySelectorAll('a[href*=".pdf"]');
+    links.forEach(function(link) {
+      if (link.href.includes('Denis_Bolkovskis_Senior_Go_2025_one_page')) {
+        link.setAttribute('download', 'Denis_Bolkovskis_Senior_Go_2025_one_page.pdf');
+        link.setAttribute('target', '_self');
+      }
+    });
+  });
+</script>
