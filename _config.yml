@@ -69,10 +69,13 @@ content:
         # quote: >
         #   
         description: | # this will include new lines to allow paragraphs
-            * **Content Processing Platform:** Designed automated pipeline processing 2,000+ daily articles from 1,300+ sources. Integrated LLMs for summarization, tag extraction, and content quality verification. Implemented Temporal workflow orchestration for reliable multi-source handling. Highly configurable content processing pipelines easily adapted for different content types and specifics.
-            * **Platform Currency Service:** Built mission-critical financial service with comprehensive audit trails and transaction logging. Designed for security, precision, and data integrity in financial operations.
-            * **AI Job Matching:** Developed intelligent candidate search. Initial filter and ranking using dynamic query composition and embedding vector search. LLM-based evaluation pipeline for advanced candidate assessment.
-            * **Technologies:** Go, Python, GCP, Pub/Sub, PostgreSQL, Redis, Debezium, Docker, Temporal, LLMs (OpenAI, Claude, Gemini), Vector Embeddings, Clickhouse.
+            **Content Processing Platform:** Designed automated pipeline processing 2,000+ daily articles from 1,300+ sources. Integrated LLMs for summarization, tag extraction, and content quality verification. Implemented Temporal workflow orchestration for reliable multi-source handling. Highly configurable content processing pipelines easily adapted for different content types and specifics.
+            
+            **Platform Currency Service:** Built mission-critical financial service with comprehensive audit trails and transaction logging. Designed for security, precision, and data integrity in financial operations.
+            
+            **AI Job Matching:** Developed intelligent candidate search. Initial filter and ranking using dynamic query composition and embedding vector search. LLM-based evaluation pipeline for advanced candidate assessment.
+            
+            **Technologies:** Go, Python, GCP, Pub/Sub, PostgreSQL, Redis, Debezium, Docker, Temporal, LLMs (OpenAI, Claude, Gemini), Vector Embeddings, Clickhouse.
 
       - layout: left
         title: LKWD Publishing, Vilnius
